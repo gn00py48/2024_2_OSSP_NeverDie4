@@ -18,33 +18,7 @@
 1. 각자 브랜치에서 작업
 2. 브랜치 업데이트 및 커밋
 3. 브랜치 푸시
-4. 병합 전 main 브랜치 업데이트
-5. 병합
-6. 병합 결과 푸시
-
-<✨ 자세한 명령어 사용 방법>
-: KGW 브랜치로 예시 설명
-
-1. 각자 브랜치에서 작업
-
-git checkout KGW
-# 작업 수행 (코드 작성, 파일 수정 등)
-
-git add .
-git commit -m "작업 내용 설명"
-# 작업 내용 설명은 fix, feat 등을 이용해서 구체적으로 쓸 것
-
-git push origin KGW
-# 자신의 브랜치로 먼저 push하기
-
-2. main 브랜치 업데이트 작업
-
-git checkout main
-git pull origin main
-# 꼭 병합하기 전에 pull먼저 받아서 최신사항 업데이트할 것
-
-git merge KGW
-# 충돌이 발생한 경우 파일을 수정하고 (병합편집기 사용 모르겠는 분은 한번 하기 전에 저한테 보여주심 알려드릴게요옹)
+4.용)
 git add .
 git commit -m "충돌 해결"
 
